@@ -1,6 +1,6 @@
 # ATM-Management-system
 
-🏦 ATM Banking System – Python OOP Project
+ ATM Banking System – Python OOP Project
 
 # Project Description
 
@@ -33,72 +33,43 @@ Implements real-world banking logic
 
 # OOP Concepts Used
 
-1️⃣ Abstract Class
+1. Abstract Class
 
 BankAccount is an abstract base class that defines the transaction() method.
 
-
-2️⃣ Encapsulation
+2. Encapsulation
 
 Private variable __balance to protect account balance
 
 Public getter and setter methods to access and update balance safely
 
-
-3️⃣ Inheritance
+3. Inheritance
 
 ATM class inherits from the Account class
 
 Reuses account properties and methods
 
-
-4️⃣ Method Overriding
+4. Method Overriding
 
 transaction() method is overridden in the ATM class to provide ATM menu functionality
 
-
-5️⃣ Class & Static Methods
+4. Class & Static Methods
 
 display_bank_name() → Displays bank name
 
 validate_amount() → Validates deposit/withdrawal amount
 
-
-
-📋 ATM Menu Options
+# ATM Menu Options
 
 1. Check Balance
 
-
 2. Deposit Money
-
 
 3. Withdraw Money
 
-
 4. View Account Details
 
-
 5. Exit
-
-▶️ How to Run the Project
-
-1. Make sure Python is installed on your system
-
-
-2. Clone the repository:
-
-git clone <your-repository-link>
-
-
-3. Run the Python file:
-
-python atm.py
-
-🧑‍💻 Sample Account Used
-
-user = ATM("Rahul", 12345, 1000)
-
  # Learning Outcome
 
 This project helps beginners understand:
