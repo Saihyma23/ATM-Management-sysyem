@@ -53,7 +53,7 @@ Reuses account properties and methods
 
 transaction() method is overridden in the ATM class to provide ATM menu functionality
 
-4. Class & Static Methods
+5. Class & Static Methods
 
 display_bank_name() → Displays bank name
 
